@@ -8,3 +8,58 @@
     }
 }
 
+@media screen and (max-width: 576px) {
+    .lessons .row {
+        display: block;
+    }
+
+    .lessons .col {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .steps .row {
+        display: block;
+    }
+
+    .steps .col {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .why-us .row {
+        flex-direction: column;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .why-us .col-right {
+        padding-left: 450px;
+    }
+
+    .why-us li {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    .card {
+        padding: 0 420px;
+    }
+
+
+}
